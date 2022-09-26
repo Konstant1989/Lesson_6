@@ -6,142 +6,114 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
+.container {
+	max-width: 810px;
+	margin: 0 auto;
+	margin-bottom: 110px;
+}
+
 h1 {
 	font-family:"Lato";
 	font-style: normal;
 	color: #1E212C;
 	font-weight: 900;
 	font-size: 46px;
-	line-height: 130%;
-	align-items: center;
-	margin-left: 345px;
-	margin-bottom: 15px;
+	line-height: 130%;	
 }
 
-img {
-    margin-left: 345px;
+.img {
+	max-width: 810px;
+	margin: 0 auto;
 	margin-bottom: 60px;
 }
 
-div.text1 {
-	font-family: 'Lato';
-	color: #1E212C;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 150%;
-	margin-left: 345px;
-	margin-bottom: 26px;   
+.chapter {
+	max-width: 810px;
+	margin: 0 auto;
+	margin-bottom: 28px;
 }
 
-div.chapter {
+.chapter__container {
 	font-family: 'Lato';
-	color: #424551;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 160%;
-	width: 810px;
-	height: 182px;
-	margin-left: 345px;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 20px; 
+	line-height: 160%;
+}
+
+.chapter1 {
+	max-width: 810px;
+	margin: 0 auto;
 	margin-bottom: 43px;
 }
 
-div.text2 {
+.chapter1__container {
 	font-family: 'Lato';
     font-style: normal;
+	color: #424551;
+    font-weight: 400;
+    font-size: 16px;
+	line-height: 160%;
+}
+
+.chapter2 {
+	max-width: 810px;
+	margin: 0 auto;
+	margin-bottom: 72px;
+}
+
+.chapter2__container {
+	font-family: 'Lato';
+    font-style: bold;
     font-weight: 700;
     font-size: 20px;
-    line-height: 150%;
-	width: 792px;
-	height: 128px;
-	margin-left: 345px;
-	padding-left: 44px;
-	margin-bottom: 64px;
+	padding-left: 58px;
+	line-height: 150%;
 }
 
-div.chapter2 {
-	font-family: 'Lato';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 160%;
-	width: 810px;
-	height: 52px;
-	margin-left: 345px;
-	margin-bottom: 48px;
-}
-
-div.chapter3 {
-	font-family: 'Lato';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 160%;
-	width: 600px;
-	height: 116px;
-	margin-left: 345px;
-	padding-left: 32px;
+.chapter3 {
+	max-width: 810px;
+	margin: 0 auto;
 	margin-bottom: 24px;
 }
 
-div.chapter4 {
+.chapter3__container {
 	font-family: 'Lato';
     font-style: normal;
+	color:#424551 ;
     font-weight: 400;
     font-size: 16px;
-    line-height: 160%;
-	width: 810px;
-	height: 104px;
-	margin-left: 335px;
-	margin-bottom: 200px;
-	
-}
-div.container {
-	font-family: "Dancing Script";
-	font-style: italic;
-	color: aqua;
-	background-color:brown ;
-	font-weight: 700;
-	font-size: 50px;
-	width: 800px;
-	margin-left: 300px;
-	padding: 50px;
-	text-shadow:  2px 2px 10px #1E212C;
-	overflow: auto;
-	border: 20px double  #7FFFD4 ;
-	margin-bottom: 100px;
+	line-height: 160%;
 }
 
-div.section {
-	font-family: "Permanent Marker";
-	color: #00FF7F;
-	text-shadow: 5px 5px 10px #FFD700;
-	background-color: #2F4F4F;
-	font-size: 30px;
-	width: 1000px;
-	margin-left: 600px;
-	padding: 15px;
-	border-radius: 50px;
-	border:30px dashed #ADFF2F;
-	opacity: 0.9;
-	margin-bottom: 50px;
-	
+.chapter4 {
+	max-width: 810px;
+	margin: 0 auto;
+	margin-bottom: 24px;
 }
 
-.button {
-	font-family: "Bangers";
-	color: whitesmoke;
-	background-color: black;
-	font-size: 50px;
-	margin-left: 100px;
-	border-radius: 20px;
-	box-shadow: 0 5px 0 red;
-	transition: all 0.3s ease 0s;	
+.chapter4__container {
+	font-family: 'Lato';
+    font-style: normal;
+	color:#424551 ;
+    font-weight: 400;
+    font-size: 16px;
+	line-height: 160%;
+	padding-left: 32px;
 }
 
-.button:hover{
-	margin-top: 3px;
-	box-shadow: 0 5px 0 yellowgreen;
+.chapter5 {
+	max-width: 810px;
+	margin: 0 auto;
 }
 
+.chapter5__container {
+	font-family: 'Lato';
+    font-style: normal;
+	color:#424551 ;
+    font-weight: 400;
+    font-size: 16px;
+	line-height: 160%;
+}
+
+   
