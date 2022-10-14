@@ -1,119 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
-
-.container {
-	max-width: 810px;
-	margin: 0 auto;
-	margin-bottom: 110px;
+body{
+	font-family:"Lato";
+	color: #424551; 
 }
 
-h1 {
-	font-family:"Lato";
-	font-style: normal;
-	color: #1E212C;
+[class*="__container"] {
+	max-width: 1230px;
+	margin: 0 auto;
+}
+
+.page {}
+
+.page__container {}
+
+.page__title {
 	font-weight: 900;
 	font-size: 46px;
-	line-height: 130%;	
+	line-height: 130%;
+	color: #1E212C;
+	margin-bottom: 26px;
+}
+.page__image {
+	text-align: center;
+	margin-bottom: 60px; 
+}
+.page__image img{
+	max-width: 100%;
 }
 
-.img {
-	max-width: 810px;
-	margin: 0 auto;
-	margin-bottom: 60px;
-}
-
-.chapter {
-	max-width: 810px;
-	margin: 0 auto;
-	margin-bottom: 28px;
-}
-
-.chapter__container {
-	font-family: 'Lato';
-    font-style: bold;
-    font-weight: 700;
-    font-size: 20px; 
-	line-height: 160%;
-}
-
-.chapter1 {
-	max-width: 810px;
-	margin: 0 auto;
-	margin-bottom: 43px;
-}
-
-.chapter1__container {
-	font-family: 'Lato';
-    font-style: normal;
-	color: #424551;
-    font-weight: 400;
-    font-size: 16px;
-	line-height: 160%;
-}
-
-.chapter2 {
-	max-width: 810px;
-	margin: 0 auto;
-	margin-bottom: 72px;
-}
-
-.chapter2__container {
-	font-family: 'Lato';
-    font-style: bold;
-    font-weight: 700;
-    font-size: 20px;
-	padding-left: 58px;
+.page__main-text {
+	font-weight: 700;
+	font-size: 20px;
 	line-height: 150%;
-}
-
-.chapter3 {
-	max-width: 810px;
-	margin: 0 auto;
+	color: #1E212C;
 	margin-bottom: 24px;
 }
 
-.chapter3__container {
-	font-family: 'Lato';
-    font-style: normal;
-	color:#424551 ;
-    font-weight: 400;
-    font-size: 16px;
+.page__text {
 	line-height: 160%;
 }
-
-.chapter4 {
-	max-width: 810px;
-	margin: 0 auto;
-	margin-bottom: 24px;
+.page__text p{
+	margin-bottom: 22px;
 }
 
-.chapter4__container {
-	font-family: 'Lato';
-    font-style: normal;
-	color:#424551 ;
-    font-weight: 400;
-    font-size: 16px;
-	line-height: 160%;
+.page__blockquote {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1E212C;
+	margin-bottom: 48px;
+	background: url("../img/icons/braces.svg")0 0 no-repeat;
+	padding-left: 58px;
+}
+
+.page__text ul{
+    margin-bottom: 24px;
+}
+.page__text li {
+	margin-bottom: 4px;
 	padding-left: 32px;
-}
+	background: url("../img/icons/check.svg") 0 6px no-repeat;
 
-.chapter5 {
-	max-width: 810px;
-	margin: 0 auto;
 }
-
-.chapter5__container {
-	font-family: 'Lato';
-    font-style: normal;
-	color:#424551 ;
-    font-weight: 400;
-    font-size: 16px;
-	line-height: 160%;
-}
-
-   
